@@ -1,0 +1,11 @@
+www
+mail
+ftp
+api
+dev
+test
+admin
+blog
+secure
+cdn
+static
